@@ -1,0 +1,31 @@
+#include <iostream>
+
+using namespace std;
+
+int additionfunction(int value1, int value2)
+{
+	return value1 + value2;
+}
+
+int subtractfunction(int value1, int value2)
+{
+	return value1 + value2;
+}
+
+int multiplyfunction(int value1, int value2)
+{
+	return value1 + value2;
+}
+
+int dividefunction(int value1, int value2)
+{
+	return value1 + value2;
+}
+int main()
+{
+	int value = additionfunction(10, 10);
+	cout << value;
+	cout << "\n";
+	system("PAUSE");
+	return 0;
+}
